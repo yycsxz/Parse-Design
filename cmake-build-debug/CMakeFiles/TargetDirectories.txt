@@ -1,0 +1,15 @@
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/CMakeFiles/install.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/CMakeFiles/Parse.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/CMakeFiles/install/local.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/CMakeFiles/list_install_components.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/CMakeFiles/rebuild_cache.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/CMakeFiles/edit_cache.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/CMakeFiles/install/strip.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/CMakeFiles/install.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/CMakeFiles/gtest_main.dir
+/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/CMakeFiles/gtest.dir

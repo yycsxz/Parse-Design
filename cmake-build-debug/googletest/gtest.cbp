@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yangyichuan/Desktop/Parse/googletest/include"/>
+					<Add directory="/Users/yangyichuan/Desktop/Parse/googletest"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin16.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yangyichuan/Desktop/Parse/googletest/include"/>
+					<Add directory="/Users/yangyichuan/Desktop/Parse/googletest"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin16.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yangyichuan/Desktop/Parse/googletest/include"/>
+					<Add directory="/Users/yangyichuan/Desktop/Parse/googletest"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin16.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yangyichuan/Desktop/Parse/googletest/include"/>
+					<Add directory="/Users/yangyichuan/Desktop/Parse/googletest"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin16.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/../../../../../../include/c++/4.9.4/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.4_1/lib/gcc/4.9/gcc/x86_64-apple-darwin16.7.0/4.9.4/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yangyichuan/Desktop/Parse/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yangyichuan/Desktop/Parse/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/yangyichuan/Desktop/Parse/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/yangyichuan/Desktop/Parse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yangyichuan/Desktop/Parse/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/yangyichuan/Desktop/Parse/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
